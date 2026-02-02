@@ -14,8 +14,9 @@ print(int(float(13*(x / y)**0.5)))
 
 # NUMBER 3 - Combine code into a separable variable
 code_1 = '354'
+code_2 = int(float(13*(x / y)**0.5))
 code_3 = 132
-new_code = code_1 + '-' + str(code_3)
+new_code = code_1 + '-' + str(code_2) + '-' + str(code_3)
 print(new_code)
 
 # NUMBER 4 - Output a string using available variables
