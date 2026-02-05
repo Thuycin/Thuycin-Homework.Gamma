@@ -59,8 +59,28 @@ example3 = "  *  extra spaces in front and back *     "
 # print(example1.find("world",7,15))
 # print(example1.count("world"))
 # print(example1.count("wwww"))
-print(example1[example1.find("world"):])
+# print(example1[example1.find("world"):])
 #HOMEWORK play with string method
 
+a = "hello"
+b = "world"
+print(a, 123, 32.456, True, sep=", ", end="")
+print()
 
+name = "John"
+salary = 2000
+# template = "{}s salary is {}"
+# print(template.format(name, salary))
+
+# template = "{0}s {2}salary is {1},{0}{0}{1}"
+# print(template.format(name, salary, 2026))
+
+# product = "computer"
+# price = 999
+# template = "This {prod} costs {pr:.2f}$"
+# print(template.format(pr=price,prod=product))
+
+name = "Sarah"
+salary = 3000
+print(f"Highest salary of {name.upper()}'s is {salary:.2f}")
 
