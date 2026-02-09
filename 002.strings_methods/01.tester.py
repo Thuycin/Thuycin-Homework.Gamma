@@ -36,11 +36,11 @@ example1 = "Hello world world"
 # print(example1[::-1])
 # print(example1.lower())
 
-example2 = "firSt LEtTEr is NoT uPPERcaSE"
+# example2 = "firSt LEtTEr is NoT uPPERcaSE"
 
-example4 = "der Fluß"
-# string methods
+# example4 = "der Fluß"
 # print(example4.casefold())
+# string methods
 # print(example4.lower())
 # print(len('that\s'))
 # print(example2.title())
@@ -62,25 +62,27 @@ example3 = "  *  extra spaces in front and back *     "
 # print(example1[example1.find("world"):])
 #HOMEWORK play with string method
 
-a = "hello"
-b = "world"
-print(a, 123, 32.456, True, sep=", ", end="")
-print()
+# a = "hello"
+# b = "world"
+# print(a, 123, 32.456, True, sep=", ", end="")
+# print()
 
-name = "John"
-salary = 2000
-# template = "{}s salary is {}"
-# print(template.format(name, salary))
+# name = "John"
+# salary = 2000
+# # template = "{}s salary is {}"
+# # print(template.format(name, salary))
 
-# template = "{0}s {2}salary is {1},{0}{0}{1}"
-# print(template.format(name, salary, 2026))
+# # template = "{0}s {2}salary is {1},{0}{0}{1}"
+# # print(template.format(name, salary, 2026))
 
-# product = "computer"
-# price = 999
-# template = "This {prod} costs {pr:.2f}$"
-# print(template.format(pr=price,prod=product))
+# # product = "computer"
+# # price = 999
+# # template = "This {prod} costs {pr:.2f}$"
+# # print(template.format(pr=price,prod=product))
 
-name = "Sarah"
-salary = 3000
-print(f"Highest salary of {name.upper()}'s is {salary:.2f}")
+# # name = "Sarah"
+# # salary = 3000
+# # print(f"Highest salary of {name.upper()}'s is {salary:.2f}")
 
+# # encoding, decoding
+# print("Hello world".encode("utf16"))
